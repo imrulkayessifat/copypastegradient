@@ -5,19 +5,19 @@ const Hero = () => {
         <div className='mx-auto px-10 w-full mt-24'>
             <div className='flex items-center justify-center'>
                 <div className='flex flex-col items-center gap-5'>
-                    <h1 className='font-bold text-6xl'>Copy Paste Gradient</h1>
-                    <Button
-                        className='dark:bg-[#0f0f0f] w-2/4 bg-white border-gradient'
-                        variant={"outline"}
+                    <h1 className='font-bold text-center text-6xl'>Copy Paste Gradient</h1>
+                    <p
+                        className='dark:bg-[#0f0f0f]  px-10 py-2 bg-white border-gradient'
+                        
                     >
                         Click to gradient to copy as svg image
-                    </Button>
-                    <Button
-                        className='dark:bg-[#0f0f0f] w-2/4 bg-white border-gradient'
-                        variant={"outline"}
+                    </p>
+                    <p
+                        className='dark:bg-[#0f0f0f] px-8 py-2 bg-white border-gradient'
+                        
                     >
                         Click to solid color to copy the hex value
-                    </Button>
+                    </p>
                 </div>
             </div>
         </div>
