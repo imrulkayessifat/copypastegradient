@@ -8,6 +8,18 @@ import { toast } from "sonner"
 import { gradients } from "@/lib/gradient"
 
 const Gradient = () => {
+
+    const handleDownload = (text: string) => {
+        const element = document.createElement('a');
+        const file = new Blob([text], { type: 'image/svg+xml' });
+        element.href = URL.createObjectURL(file);
+        element.download = 'data.svg';
+        document.body.appendChild(element);
+        element.click();
+
+    };
+
+
     const copyToClipboard = (text: string) => {
         navigator.clipboard.writeText(text)
             .then(() => toast('svg code copied'))
@@ -29,6 +41,8 @@ const Gradient = () => {
 
                             />
                             <IoMdDownload
+                                onClick={() => handleDownload(data.text)}
+
                                 className="absolute cursor-pointer p-2 w-8 h-8 rounded-sm text-white bg-[#0f0f0f] bottom-[4%] right-[20%]"
                             />
                             <MdOutlineContentCopy
