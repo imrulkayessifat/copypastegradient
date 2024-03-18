@@ -43,7 +43,7 @@ const Gradient = () => {
                             <IoMdDownload
                                 onClick={() => handleDownload(data.text)}
 
-                                className="absolute cursor-pointer p-2 w-8 h-8 rounded-sm text-white bg-[#0f0f0f] bottom-[4%] right-[20%]"
+                                className="absolute cursor-pointer mr-5 md:mr-0 p-2 w-8 h-8 rounded-sm text-white bg-[#0f0f0f] bottom-[4%] right-[20%]"
                             />
                             <MdOutlineContentCopy
                                 onClick={() => copyToClipboard(data.text)}
