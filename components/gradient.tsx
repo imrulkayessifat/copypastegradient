@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { MdOutlineContentCopy } from "react-icons/md";
+import { IoMdDownload } from "react-icons/io";
 import { toast } from "sonner"
 
 import { gradients } from "@/lib/gradient"
@@ -27,9 +28,12 @@ const Gradient = () => {
                                 className="w-[196px] h-[400px] shrink-0 rounded-md"
 
                             />
+                            <IoMdDownload
+                                className="absolute cursor-pointer p-2 w-8 h-8 rounded-sm text-white bg-[#0f0f0f] bottom-[4%] right-[20%]"
+                            />
                             <MdOutlineContentCopy
                                 onClick={() => copyToClipboard(data.text)}
-                                className="absolute cursor-pointer text-white top-[90%] right-[10%]"
+                                className="absolute cursor-pointer p-2 w-8 h-8 rounded-sm text-white bg-[#0f0f0f] bottom-[4%] right-[5%]"
                             />
                         </div>
                     ))
