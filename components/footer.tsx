@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <div className='mx-auto px-10 flex justify-between w-full pb-5 mt-24'>
-            <h1 className='font-normal text-sm'>Copyright @CopyPasteGradient2024</h1>
+            <h1 className='font-normal text-sm'>Copyright @DopeGradient2024</h1>
             <div className='flex gap-2'>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.78375 4.16669C5.78345 4.84528 5.37175 5.45593 4.7428 5.71069C4.11385 5.96546 3.39324 5.81346 2.92077 5.32637C2.4483 4.83928 2.31831 4.11437 2.5921 3.49347C2.8659 2.87257 3.4888 2.47966 4.16709 2.50002C5.06798 2.52706 5.78416 3.26539 5.78375 4.16669ZM5.83375 7.06669H2.50042V17.5H5.83375V7.06669ZM11.1004 7.06669H7.78375V17.5H11.0671V12.025C11.0671 8.975 15.0421 8.69166 15.0421 12.025V17.5H18.3338V10.8917C18.3338 5.75002 12.4504 5.94169 11.0671 8.46666L11.1004 7.06669Z" fill={theme === 'dark' ? 'white' : '#0F0F0F'} />

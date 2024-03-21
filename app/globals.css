@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 .border-gradient {
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid;
   border-image: linear-gradient(135deg, #00f0ff 10%, #7000ff 30%, #ff10ca 90%);
   border-image-slice: 1;
-  border-radius: 10px;
 }
  
 @layer base {

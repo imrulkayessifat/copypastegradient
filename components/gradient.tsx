@@ -27,7 +27,7 @@ const Gradient = () => {
 
     return (
         <div className='mx-auto px-10 w-full mt-12'>
-            <div className='grid w-full grid-cols-2 lg:grid-cols-3 justify-between gap-10 xl:grid-cols-4'>
+            <div className='grid w-full grid-cols-2 lg:grid-cols-3 justify-between gap-8 xl:grid-cols-4'>
                 {
                     gradients.map((data, key) => (
                         <div key={key} className={`relative`}>
