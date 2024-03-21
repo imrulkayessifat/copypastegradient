@@ -12,7 +12,7 @@ const Hero = () => {
                         >
                             beautiful svg gradients!
                         </p> */}
-                        <p className='font-bold text-center text-[60px]'>100+ beautiful svg gradients!</p>
+                        <p className='font-bold text-center leading-tight md:leading-normal text-[60px]'>100+ beautiful svg gradients!</p>
                     </div>
                     <p
                         className='dark:bg-[#0f0f0f] text-center bg-white px-8 py-2 mt-7 border-gradient'
